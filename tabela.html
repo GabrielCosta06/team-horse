@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Team Horse - Tabela de Produtos</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    .section-header {
+      margin-top: 3rem;
+      margin-bottom: 1rem;
+    }
+    .table thead {
+      background-color: #343a40;
+      color: #fff;
+    }
+  </style>
+</head>
+<body>
+  <!-- Barra de Navegação -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">Team Horse</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" 
+              aria-controls="navbarNav" aria-expanded="false" aria-label="Alternar navegação">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Início</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="rastreamento.html">Rastreamento</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="tabela.html">Tabela</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+  <!-- Conteúdo Principal -->
+  <main class="container my-5">
+    <!-- Produtos de Academia -->
+    <div class="section-header text-center">
+      <h2 class="fw-bold">Produtos de Academia</h2>
+      <p class="text-muted">Confira nossos itens exclusivos para sua rotina na academia</p>
+    </div>
+    <div class="table-responsive">
+        <table class="table table-bordered table-hover align-middle" style="--bs-table-border-color: #8a8a8a;">
+        <thead>
+          <tr>
+            <th>Nome do Produto</th>
+            <th>Descrição</th>
+            <th>Preço (R$)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Barra de Energia</td>
+            <td>Barra proteica de alta energia para recuperação muscular.</td>
+            <td>12,99</td>
+          </tr>
+          <tr>
+            <td>Luvas de Academia</td>
+            <td>Luvas resistentes para melhorar sua pegada durante os treinos.</td>
+            <td>34,50</td>
+          </tr>
+          <tr>
+            <td>Cinto de Musculação</td>
+            <td>Cinto de suporte para exercícios de levantamento pesado.</td>
+            <td>59,90</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    
+    <!-- Produtos Fitness -->
+    <div class="section-header text-center">
+      <h2 class="fw-bold">Produtos Fitness</h2>
+      <p class="text-muted">Itens ideais para seu treino funcional e fitness</p>
+    </div>
+    <div class="table-responsive">
+        <table class="table table-bordered table-hover align-middle" style="--bs-table-border-color: #8a8a8a;">
+        <thead>
+          <tr>
+            <th>Nome do Produto</th>
+            <th>Descrição</th>
+            <th>Preço (R$)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Bandas de Resistência</td>
+            <td>Conjunto de 5 bandas para exercícios de força e flexibilidade.</td>
+            <td>49,90</td>
+          </tr>
+          <tr>
+            <td>Rolo de Espuma</td>
+            <td>Ferramenta para alívio de tensões e melhora na recuperação muscular.</td>
+            <td>39,90</td>
+          </tr>
+          <tr>
+            <td>Tapete de Yoga</td>
+            <td>Tapete antiderrapante para yoga, pilates e alongamentos.</td>
+            <td>79,90</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </main>
+  
+  <!-- Bootstrap JS Bundle -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
